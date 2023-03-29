@@ -20,8 +20,8 @@ function DayjsExample(props) {
   const newDayjsDate = dayjsDate.add(1, "week");
   const cloneNewDayjsDate = newDayjsDate.add(1, "week");
   return (
-    <div style={{"textAlign":"center"}}>
-      <h1>Moment</h1>
+    <div>
+      <h1>Day.js</h1>
       <div>Immutable Check</div>
       <div>
         {dayjsDate.format()}
